@@ -35,7 +35,7 @@ public class HttpConnectionWorkerThread extends Thread{
                             html +
                             CRLF + CRLF;
 
-            outputStream.write((response.getBytes()));
+            outputStream.write(response.getBytes());
 
             LOGGER.info("Connection Processing Finished.");
         } catch (IOException e) {
