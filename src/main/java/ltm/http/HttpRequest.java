@@ -35,7 +35,7 @@ public class HttpRequest extends HttpMessage{
         throw new HttpParsingException(HttpStatusCode.SERVER_ERROR_501_NOT_IMPLEMENTED);
     }
 
-    void setRequestTarget(String toString) throws HttpParsingException {
+    void setRequestTarget(String requestTarget) throws HttpParsingException {
         if (requestTarget == null || requestTarget.length()==0) {
             throw  new HttpParsingException(HttpStatusCode.SERVER_ERROR_500_INTERNAL_SERVER_ERROR);
         }
