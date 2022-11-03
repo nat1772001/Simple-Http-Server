@@ -24,7 +24,7 @@ c.	Hạn chế, hướng phát triển
   -	HttpParsingException.java
   -	HttpRequest.java
   -	HttpStatusCode.java
- - B19DCCN615 – Nguyễn Anh Tuấn: Sửa lại những phần thiếu ở phần trước, ghép code, thêm các test case để kiểm tra các exception của Http Request hướng theo chuẩn RFC
+- B19DCCN615 – Nguyễn Anh Tuấn: Sửa lại những phần thiếu ở phần trước, ghép code, thêm các test case để kiểm tra các exception của Http Request hướng theo chuẩn RFC
   -	HttpServer.java
   -	Configuration.java
   -	ConfigurationManager.java
