@@ -1,12 +1,17 @@
 # Simple-Http-Server
 1. Giới thiệu sơ lược chủ đề
+
 a.	Mục tiêu
 - Tạo ra một Server HTTP đơn giản có thể xử lý được nhiều request cùng lúc và chỉ nhận các HTTP Request theo chuẩn RFC
 - Server nhận request và trả về các trang static web
+
 b.	Kết quả đã đạt được 
 Tạo ra một Server HTTP đơn giản có thể xử lý được nhiều request cùng lúc và chỉ nhận các HTTP Request theo chuẩn RFC
+
 c.	Hạn chế, hướng phát triển 
 - Server nhận các request và trả về các trang static web
+
+
 2. Tổng hợp công việc
 - B19DCCN237 - Bùi Trung Hiếu: Khởi tạo Server đơn giản, thêm chức năng xử lý nhiều request cùng lúc
   -	HttpServer.java
