@@ -49,5 +49,5 @@ c.	Hạn chế, hướng phát triển
   3.		1.0.2	Server vẫn sử dụng System.out.println để logging	- Sử dụng slf4j để logging	-OK
   4.		1.0.3	Server tiếp nhận mọi loại request	-Cài dặt lớp HttpRequest và các lớp liên quan để server chỉ tiếp nhận HttpRequest theo chuẩn RFC	-OK
   5.		1.0.4	Phần chỉ nhận Http request theo chuẩn RFC chưa đầy đủ	- Cài đặt các lớp liên quan cũng như các test case để kiểm tra các exception hướng tới Http Request chuẩn RFC	-OK
-  6.    1.0.5 Các test - Sửa các lỗi khiến cho các test bị sai - OK
+  5.		1.0.5	Các test HttpParser	- Sửa lỗi khiến cho các test bị sai	-OK
 
